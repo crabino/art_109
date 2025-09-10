@@ -1,8 +1,30 @@
+body{
+animation: change-color 8s infinite alternate;
+
+
+
+}
+@keyframes change-color{
+    0% {background-color: white;}
+    25%{background-color: yellow;}
+    50%{background-color: purple;}
+    75%{background-color: aquamarine;}
+    100%{background-color: pink;}
+}
+
 .title {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 50px;
-
+    text-align: center;
+    margin-top: 20px;
+    animation: skews 8s infinite alternate;
 }
+@keyframes skews{
+    0%{transform:skew(0deg,0deg);}
+    50%{transform:skew(10deg,10deg);}
+    100%{transform:skew(-10deg,-10deg);}
+}
+
 
 .square {
     background-color: orangered;
@@ -43,6 +65,19 @@
     background-color: burlywood;
     color: red;
     transform: scale(1.5);
+}
 
+.hello{
+    background-color: black;
+    color: white;
+   animation: stretch 5s; 
+
+
+}
+
+@keyframes stretch{
+    0%{width: 0px;}
+    50%{width: 50vw;}
+    100%{width: 100vw;}
 
 }

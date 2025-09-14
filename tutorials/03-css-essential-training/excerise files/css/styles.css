@@ -20,6 +20,15 @@ Off-white     #f6f6f6
 body{
     background:#f6f6f6;
  }
+ /* links */
+ a{
+    color:#3c8453;
+ }
+ a:hover{
+    color:#bcaa96;
+    text-decoration: none;
+ }
+
 *{
     color:brown;
 }
@@ -39,7 +48,14 @@ body{
     background: rgb(255 255 255/ 0.9);
 }
 
+.first{
+    font-size: 24px;
 
+}
+article p:first-of-type{
+    color: black;
+
+}
 
 /* RESUME
 ----------------------------------- */
@@ -54,3 +70,10 @@ footer{
     color: #d3d4d6;
 
 }
+footer a{
+    color:#bcaa96;
+}
+footer a:hover{
+    color:#3c8453;
+    text-decoration: none;
+ }

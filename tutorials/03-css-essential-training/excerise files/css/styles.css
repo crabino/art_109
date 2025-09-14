@@ -1,0 +1,56 @@
+/* .background{
+    width: 600px;
+    height: 400px;
+    
+    background-image: url(images/);
+    background-repeat: no-repeat;
+    background-position: right;
+} */
+/* 
+Dark green    #3c8453
+Sandy beige   #bcaa96
+Dark gray     #222222
+Light gray    #d3d4d6
+Off-white     #f6f6f6  
+*/
+
+/* global style
+--------------------------------- */
+
+body{
+    background:#f6f6f6;
+ }
+*{
+    color:brown;
+}
+/* id uses # while class uses .  */
+#title{
+    color: azure;
+
+}
+/* HOME
+---------------------------------- */
+.home{
+    background: url(../images/bg-home-office-studio.jpg) no-repeat;
+    background-size: cover;
+
+}
+.home .content{
+    background: rgb(255 255 255/ 0.9);
+}
+
+
+
+/* RESUME
+----------------------------------- */
+/* 
+PROFILE
+--------------------------------------- */
+
+/* FOOTER 
+--------------------------------------------------*/
+footer{
+    background: #222;
+    color: #d3d4d6;
+
+}

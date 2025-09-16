@@ -16,7 +16,19 @@ Off-white     #f6f6f6
 
 /* global style
 --------------------------------- */
-
+/* 
+  https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html,body{
+    height: 100%;
+    margin: 0;
+}
 body{
     background:#f6f6f6;
  }
@@ -35,6 +47,14 @@ body{
 /* id uses # while class uses .  */
 #title{
     color: azure;
+
+}
+.content{
+    margin:0 auto;
+    padding: 30px;
+   max-width: 900px;
+
+
 
 }
 /* HOME
@@ -59,6 +79,15 @@ article p:first-of-type{
 
 /* RESUME
 ----------------------------------- */
+.resume header::before{
+    background: url(../images/bg-home-office-studio.jpg) center;
+    background-size: cover;
+    content: "";
+    display: block;
+    height: 375px;
+}
+
+
 /* 
 PROFILE
 --------------------------------------- */
@@ -77,3 +106,13 @@ footer a:hover{
     color:#3c8453;
     text-decoration: none;
  }
+.socials{
+    list-style-type: none;
+    padding:0;
+}
+.socials li{
+    display: inline-block;
+}
+.socials img{
+width: 32px;
+}

@@ -33,6 +33,12 @@ body{
     background:#f6f6f6;
  }
  /* links */
+ .btn {
+    background: #3c8453;
+    color: #f6f6f6;
+    text-decoration: none;
+}
+
  a{
     color:#3c8453;
  }
@@ -79,6 +85,13 @@ article p:first-of-type{
 
 /* RESUME
 ----------------------------------- */
+.dLink{
+    position: fixed;
+    top: 5px;
+    left: 5px;
+}
+
+
 .resume header::before{
     background: url(../images/bg-home-office-studio.jpg) center;
     background-size: cover;
@@ -86,7 +99,15 @@ article p:first-of-type{
     display: block;
     height: 375px;
 }
+.resume-section{
+    margin-bottom: 50px;
 
+}
+.resume-section h2{
+    border-bottom: 2px dashed lightgrey;
+
+
+}
 
 /* 
 PROFILE

@@ -59,21 +59,24 @@ body{
     margin:0 auto;
     padding: 30px;
    max-width: 900px;
-
-
-
 }
+
 /* HOME
 ---------------------------------- */
 .home{
     background: url(../images/bg-home-office-studio.jpg) no-repeat;
     background-size: cover;
-
+    display: flex;
+    flex-direction: column;
 }
 .home .content{
-    background: rgb(255 255 255/ 0.9);
+   
+    flex: 1 0 auto;
 }
-
+.content-bg{
+    background: rgb(255 255 255/ 0.9);
+    padding: 30px;
+}
 .first{
     font-size: 24px;
 
@@ -109,6 +112,15 @@ article p:first-of-type{
 
 }
 
+/* work Experience 
+----------------------------------------- */
+.work-item{
+    display: grid;
+    grid-template-columns: 300px 2 fr;
+    column-gap: 15px;
+}
+
+
 /* 
 PROFILE
 --------------------------------------- */
@@ -127,7 +139,9 @@ project-item img{
 footer{
     background: #222;
     color: #d3d4d6;
-
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2px;
 }
 footer a{
     color:#bcaa96;
@@ -142,7 +156,12 @@ footer a:hover{
 }
 .socials li{
     display: inline-block;
+    margin-left: 10px;
 }
 .socials img{
 width: 32px;
+}
+.socials img:hover{
+    opacity: 0.5;
+
 }

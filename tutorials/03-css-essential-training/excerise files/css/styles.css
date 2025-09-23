@@ -1,0 +1,127 @@
+/* .background{
+    width: 600px;
+    height: 400px;
+    
+    background-image: url(images/);
+    background-repeat: no-repeat;
+    background-position: right;
+} */
+/* 
+Dark green    #3c8453
+Sandy beige   #bcaa96
+Dark gray     #222222
+Light gray    #d3d4d6
+Off-white     #f6f6f6  
+*/
+
+/* global style
+--------------------------------- */
+/* 
+  https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html,body{
+    height: 100%;
+    margin: 0;
+}
+body{
+    background:#f6f6f6;
+ }
+ /* links */
+ a{
+    color:#3c8453;
+ }
+ a:hover{
+    color:#bcaa96;
+    text-decoration: none;
+ }
+
+*{
+    color:brown;
+}
+/* id uses # while class uses .  */
+#title{
+    color: azure;
+
+}
+.content{
+    margin:0 auto;
+    padding: 30px;
+   max-width: 900px;
+
+
+
+}
+/* HOME
+---------------------------------- */
+.home{
+    background: url(../images/bg-home-office-studio.jpg) no-repeat;
+    background-size: cover;
+
+}
+.home .content{
+    background: rgb(255 255 255/ 0.9);
+}
+
+.first{
+    font-size: 24px;
+
+}
+article p:first-of-type{
+    color: black;
+
+}
+
+/* RESUME
+----------------------------------- */
+.resume header::before{
+    background: url(../images/bg-home-office-studio.jpg) center;
+    background-size: cover;
+    content: "";
+    display: block;
+    height: 375px;
+}
+
+
+/* 
+PROFILE
+--------------------------------------- */
+project-item{
+    display: flow-root;
+
+}
+project-item img{
+    width: 300px;
+    float: left;
+    margin-right: 30px 0;
+
+}
+/* FOOTER 
+--------------------------------------------------*/
+footer{
+    background: #222;
+    color: #d3d4d6;
+
+}
+footer a{
+    color:#bcaa96;
+}
+footer a:hover{
+    color:#3c8453;
+    text-decoration: none;
+ }
+.socials{
+    list-style-type: none;
+    padding:0;
+}
+.socials li{
+    display: inline-block;
+}
+.socials img{
+width: 32px;
+}

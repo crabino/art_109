@@ -1,0 +1,33 @@
+.quee{
+    margin-right: 50px;
+    margin-top: 20px;
+    text-align: center;
+    color: whitesmoke;
+}
+body{
+    background-color: black;
+}
+.box{
+     background-color: black;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 75px auto;
+    
+}
+.buttondiv{
+    text-align: center;
+    margin: 25px;
+
+
+}
+.button{
+    background-color: rgb(145, 174, 199);
+    padding: 30px;
+
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+
+}

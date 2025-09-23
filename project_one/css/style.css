@@ -17,17 +17,31 @@ body{
 }
 .buttondiv{
     text-align: center;
-    margin: 25px;
-
-
+    margin: 25px
 }
 .button{
-    background-color: rgb(145, 174, 199);
+    background-color: black;
+    color: white;
     padding: 30px;
 
     border-radius: 10px;
     text-decoration: none;
     text-align: center;
     display: inline-block;
+    font-size: 200%;
 
 }
+.rim{
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    display: inline-block;
+}
+.button:hover{
+    background-color: black;
+    color: red;
+    transform: scale(1.5);
+}
+/* up here is the code for index.html  */
+/* below is the code for page1.html */
+

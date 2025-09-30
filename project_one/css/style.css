@@ -44,4 +44,82 @@ body{
 }
 /* up here is the code for index.html  */
 /* below is the code for page1.html */
+html {
+   box-sizing: border-box;
+   font-size: 62.5%;
+}
 
+
+*,
+*:before,
+*:after {
+   box-sizing: inherit;
+   margin: 0;
+   padding: 0;
+}
+
+
+html,
+body {
+   height: 100%;
+}
+
+
+body {
+    font-size: 1.6rem;
+   /* font-size 1.6rem is now the same as 16px */
+   line-height: 1.6;
+   background-color: black;
+   color: white;
+}
+
+header{
+    padding: 50px;
+    /* background-color: aqua; */
+    text-align: center;
+
+}
+
+.image-div{
+   
+    position: absolute;
+   
+}
+ .hidden{
+    visibility: hidden;
+ }
+
+
+#img-0{
+      
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+#img-1{
+      
+    position: absolute;
+    top: 90px;
+    left: 10px;
+    right: 50px;
+}
+
+
+#img-2{
+position: absolute;
+    top: 80px;
+    right: 60px;
+  
+}
+#img-3{
+position: fixed;
+    top: 20px;
+    right: 150px;
+
+}
+#img-4{
+ position: sticky;
+    top: 400px;
+    right: 10px; 
+    left: 90;  
+}

@@ -28,7 +28,7 @@ body{
     border-radius: 1px;
     margin-top: -20px;
     margin-bottom: -15px;
-    
+    font-size: 150%;
 }
 .pages-left{
     padding: 10px;
@@ -37,6 +37,7 @@ body{
     border-radius: 10px;
     margin-top: -25px;
     margin-right: 5px;
+     font-size: 150%;
 }
 .pages-right{
     padding: 10px;
@@ -44,7 +45,7 @@ body{
     flex: 40%;
     border-radius: 10px;
     margin-top: -20px;
-    
+    font-size: 150%;
 }
 
 .primg{

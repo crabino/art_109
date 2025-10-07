@@ -99,20 +99,20 @@ header{
 #img-1{
       
   display: block;
-  margin-left: 100px;
+  margin-left: 90px;
   margin-right: 300px;
   margin-top: 100px;
-    z-index: 0;
+    z-index: 3;
     
 }
 
 
 #img-2{
 display: block;
-  margin-left: 100px;
+  margin-left: 110px;
   margin-right: 300px;
-  margin-top: 100px;
-    z-index: -1;
+  margin-top: 130px;
+    
   
 }
 #img-3{
@@ -120,7 +120,7 @@ display: block;
   margin-left: 200px;
   margin-right: 400px;
   margin-top: 400px;
-    z-index: 2;
+   
   
 }
 #img-4{
@@ -128,9 +128,13 @@ display: block;
  display: block;
   margin-left: 200px;
   margin-right: 400px;
-  margin-top: 400px;
-    z-index: 1;
+  margin-top: 500px;
+    
 }
+
+
+
+
 .zchange{
     width: 100%;
     height: auto;

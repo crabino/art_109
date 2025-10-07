@@ -9,7 +9,7 @@ zimg1.addEventListener("mouseover", function(){
 
 });
 zimg1.addEventListener("mouseout", function(){
-    zimg1.style.zIndex= "-10";
+    zimg1.style.zIndex= "10";
 
 });
 

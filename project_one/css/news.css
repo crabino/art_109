@@ -27,7 +27,7 @@ body{
     flex: 100%;
     border-radius: 1px;
     margin-top: -20px;
-    margin-bottom: -15px;
+    
     font-size: 150%;
 }
 .pages-left{
@@ -50,6 +50,13 @@ body{
 
 .primg{
     
+    margin-left: 5px;
+    margin-right: 40px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+#news{ 
     margin-left: 5px;
     margin-right: 40px;
     margin-top: -30px;

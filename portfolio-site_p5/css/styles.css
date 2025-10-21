@@ -93,10 +93,13 @@ article p:first-of-type{
     top: 5px;
     left: 5px;
 }
+.resume{
+    background-color: #222;
+}
 
 
 .resume header::before{
-    background: url(../images/bg-home-office-studio.jpg) center;
+    /* background: url(../images/bg-home-office-studio.jpg) center; */
     background-size: cover;
     content: "";
     display: block;

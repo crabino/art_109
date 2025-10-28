@@ -52,7 +52,7 @@ body{
 }
 /* id uses # while class uses .  */
 #title{
-    color: azure;
+    color: black;
 
 }
 .content{
@@ -99,7 +99,7 @@ article p:first-of-type{
 
 
 .resume header::before{
-    /* background: url(../images/bg-home-office-studio.jpg) center; */
+    background: url(../images/bg-home-office-studio.jpg) center; 
     background-size: cover;
     content: "";
     display: block;

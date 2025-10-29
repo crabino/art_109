@@ -57,8 +57,8 @@ body{
 }
 .content{
     margin:0 auto;
-    padding: 30px;
-   max-width: 900px;
+    padding: 10px;
+   max-width: width;
 }
 
 /* HOME
@@ -88,6 +88,10 @@ article p:first-of-type{
 
 /* RESUME
 ----------------------------------- */
+.atitle{
+    text-align: left;
+    
+}
 .dLink{
     position: fixed;
     top: 5px;
@@ -97,9 +101,20 @@ article p:first-of-type{
     background-color: #222;
 }
 
+.resume2{
+    background-color: #222;
+}
 
 .resume header::before{
-    background: url(../images/bg-home-office-studio.jpg) center; 
+    background: url(../images/Crude_bg.png) center; 
+    background-size: cover;
+    content: "";
+    display: block;
+    height: 375px;
+}
+
+.resume2 header::before{
+    background: url(../images/Still_bg.png) center; 
     background-size: cover;
     content: "";
     display: block;
@@ -109,8 +124,19 @@ article p:first-of-type{
     margin-bottom: 50px;
 
 }
+
+.resume2-section{
+    margin-bottom: 50px;
+
+}
+
 .resume-section h2{
-    border-bottom: 2px dashed lightgrey;
+    border-bottom: 2px ridge red;
+
+
+}
+.resume2-section h2{
+    border-bottom: 2px ridge red;
 
 
 }

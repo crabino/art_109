@@ -7,7 +7,7 @@ import * as THREE from 'three';
 
 // Import add-ons
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+// import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
 
 // ~~~~~~~~~~~~~~~~Set up~~~~~~~~~~~~~~~~
@@ -17,12 +17,20 @@ const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerH
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
+const geometry = new THREE.BoxGeometry(2 ,2 ,2);
+const material = new THREE.MeshBasicMaterial({color: 0x00ff00 });
+const cube = new THREE.Mesh(geometry, material);
+scene.add(cube); 
 
+camera.position.z = 5;
+function animate(){
+    requestAnimationFrame(animate);
+    renderer.render(scene,camera);
 
-
+}
 // ~~~~~~~~~~~~~~~~ Initiate add-ons ~~~~~~~~~~~~~~~~
 const controls = new OrbitControls(camera, renderer.domElement);
-// const loader = new GLTFLoader(); // to load 3d models
+//  const loader = new GLTFLoader(); // to load 3d models
 
 
 

@@ -1,0 +1,11 @@
+html{
+     box-sizing: border-box;
+}
+body{
+    background: antiquewhite;
+}
+
+.text{
+    margin: auto 70px;
+   font-size: 25px;
+}

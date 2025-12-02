@@ -3,23 +3,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cool</title>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class = "Back">
+<body class = "Back" id="lit">
     <div class = "container">
         <div class="box" id="one">
-            <p class = lung><a href="https://my.clevelandclinic.org/health/diseases/pulmonary-contusion">lungs</a></p>    
+           <a class = lung href ="https://my.clevelandclinic.org/health/diseases/pulmonary-contusion"><img src="images/img_lungs.png"  onmouseover="this.src='images/burntlungs.png'"
+    onmouseout="this.src='images/img_lungs.png'"alt="lungs"></a>   
         </div>
         <div class="box" id="two">
-          <p class = lung><a href="https://www.webmd.com/lung/lung-diseases-overview">lungs</a></p>
+          <a class = lung href="https://www.webmd.com/lung/lung-diseases-overview"><img src="images/img_lungs.png"  onmouseover="this.src='images/burntlungs.png'"
+    onmouseout="this.src='images/img_lungs.png'"alt="lungs"></a>
          </div>
         <div class="box" id="three">
-             <p class = lung><a href="https://www.verywellhealth.com/types-of-lung-disease-what-you-should-know-5207533">lungs</a></p>
+            <a class = lung href="https://www.verywellhealth.com/types-of-lung-disease-what-you-should-know-5207533"><img src="images/img_lungs.png"  onmouseover="this.src='images/burntlungs.png'"
+    onmouseout="this.src='images/img_lungs.png'"alt="lungs"></a>
          </div>
      <div class="box" id="four">
-              <p class = lung><a href="https://en.wikipedia.org/wiki/Respiratory_disease">lungs</a></p>
+              <a class = lung href="https://en.wikipedia.org/wiki/Respiratory_disease"><img src="images/img_lungs.png"  onmouseover="this.src='images/burntlungs.png'"
+    onmouseout="this.src='images/img_lungs.png'"alt="lungs"></a>
          </div>
+          <audio id="burn" preload ="auto">
+            <source src = "audio/burn.mp3">
+         </audio>
+
     </div>
-    <p><a href="index.html">return</a> </p>
+   
+ <p class = yes><a href="index.html">return</a> </p>
+    
+
+    <script src="java/java.js"></script>
 </body>
 </html>

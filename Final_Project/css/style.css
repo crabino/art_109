@@ -4,9 +4,36 @@
 background-color: black;
 
 }
-body{
-  cursor: url(),auto;
+.back#point{
+  height: 100vh;
+  cursor: url('../images/pointer.png'),auto;
+  
 }
+.back#point *:hover{
+  height: 100vh;
+  cursor: url('../images/pointer.png'),auto;
+  
+}
+
+.back#lit{
+  height: 100vh;
+  cursor: url('../images/cigar.png'),auto;
+  
+}
+.back#lit *:hover{
+  height: 100vh;
+  cursor: url('../images/cigar.png'),auto;
+  
+}
+
+.yes{
+  color: yellow;
+  background-color: yellow;
+  border-radius: 0px;
+    width: 40px;
+    height: 20px;
+}
+
 .title{
 color: red;
 text-align: center;
@@ -15,7 +42,9 @@ font-size: 100px;
 
 
 /* eyes */
-a { text-decoration: none; }
+a { text-decoration: none; 
+  color: red;
+}
 .eyes{
 transition: transform .2s;
 }
@@ -43,12 +72,39 @@ transition: transform .2s;
 
 
 
+
+
 /* heart */
+.heart{
+  animation: beats .5s infinite alternate;
+}
+@keyframes beats{
+  0%{opacity: 0;}
+ 
+  100%{opacity: 1;}
+}
 
 
 /* hand */
+
 .hand{
  font-family: Braille;
+ color: red;
+}
+.hand:link{
+  color: red;
+}
+.hand:hover{
+  animation: change-color 1s infinite alternate;
+  
+}
+@keyframes change-color{
+    0% {background-color: green;}
+    25%{background-color: yellow;}
+    50%{background-color: purple;}
+    75%{background-color: red;}
+    100%{background-color: pink;}
+
 }
 
 
@@ -59,42 +115,42 @@ transition: transform .2s;
   
 }
 .box :hover{
-    transform: scale(4);
+    transform: scale(1.5);
 }
 
 .box#one {
-  width: 90px;
-  height: 60px;
-  background: red;
+  width: 290px;
+  height: 10px;
+  
    font-size: 75px;
   top: 300px;
-  left: 300px;
+  left: 100px;
   
 }
 
 .box#two {
-  width: 90px;
+  width: 290px;
   height: 100px;
-  background: brown;
+  
   font-size: 75px;
   top: 150px;
-  right: 240px;
+  right: 850px;
 }
 
 .box#three {
-  width: 120px;
+  width: 290px;
   height: 120px;
-  background: purple;
+  
   font-size: 75px;
- top: 400px;
-  right: 300px;
+ top: 800px;
+  right: 600px;
 }
 
 .box#four {
-  width: 150px;
+  width: 290px;
   height: 160px;
-  background: yellow;
+  
    font-size: 75px;
-  top: 603px;
+  top: 703px;
   left: 400px;
 }

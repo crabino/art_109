@@ -9,3 +9,57 @@ body{
     margin: auto 70px;
    font-size: 25px;
 }
+/* eyes */
+.container {
+  /* You can set this to whatever you wish. */
+  width: 400px;
+  
+  /* You'll need to set a height. */
+  height: 400px;
+  
+  /* Allows positioning relative to this container. */
+  position: relative;
+  
+  /* For clarity. */
+  border: 1px solid white;
+}
+.box {
+  position: absolute;
+  
+}
+
+.box#one {
+  width: 90px;
+  height: 60px;
+  background: red;
+  
+  top: 20px;
+  left: 60px;
+}
+
+.box #two {
+  width: 90px;
+  height: 100px;
+  background: blue;
+  
+  top: 50px;
+  right: 100px;
+}
+
+.box#three {
+  width: 67px;
+  height: 76px;
+  background: purple;
+  
+  bottom: 100px;
+  left: 278px;
+}
+
+.box#four {
+  width: 150px;
+  height: 160px;
+  background: yellow;
+  
+  top: 203px;
+  left: 100px;
+}

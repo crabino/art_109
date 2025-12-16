@@ -104,6 +104,9 @@ article p:first-of-type{
 .resume2{
     background-color: #222;
 }
+.resume3{
+    background-color: #222;
+}
 
 .resume header::before{
     background: url(../images/Crude_bg.png) center; 
@@ -115,6 +118,13 @@ article p:first-of-type{
 
 .resume2 header::before{
     background: url(../images/Still_bg.png) center; 
+    background-size: cover;
+    content: "";
+    display: block;
+    height: 375px;
+}
+.resume3 header::before{
+    background: url(../images/Ouroboros_bg.png) center; 
     background-size: cover;
     content: "";
     display: block;
